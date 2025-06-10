@@ -11,7 +11,6 @@ const MonthlyStats = () => {
   }, []);
 
   useEffect(() => {
-   
     const timer = setTimeout(() => {
       setCompletion(74); 
     }, 1000);
